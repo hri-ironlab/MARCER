@@ -1,5 +1,5 @@
 # MARCER System Overview
-This project provides reviewers with a simulation of our system MARCER. Users can run our system in Unity while interacting with a simulated robot running in ROS. If the reviewer has a HoloLens, they may also run our Unity program using the holographic remoting application on the HoloLens device.
+This project provides a simulation of our system, MARCER, as well as a description of each component of our system architecture. Users can run our system in Unity while interacting with a simulated robot running in ROS. If the reviewer has a HoloLens, they may also run our Unity program using the holographic remoting application on the HoloLens device.
 
 ## System Architecture
 ![Example workflow showing interaction between user and robot](/Figures/system_diagram.png)
