@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- Given the published joint states, publish tf for the robot links -->
+  <node name="rule_generator_node" pkg="rule_generator" type="rule_generator_node.py" output="screen" />
+  <node name="language_model_node" pkg="language_model" type="language_model_node.py" output="screen" />
+</launch>

@@ -1,0 +1,115 @@
+- name: "bottle"
+  id: 0
+  frame_id: "base_link"
+  size: [0.0, 0.0, 0.0]
+- name: "cheezit"
+  id: 1
+  frame_id: "base_link"
+  size: [0.03, 0.2, 0.0]
+- name: "cup"
+  id: 2
+  frame_id: "base_link"
+  size: [0.0, 0.0, 0.0]
+- name: "pringles" # cylinder
+  id: 3
+  frame_id: "base_link"
+  size: [0.03, 0.2, 0.0]
+- name: "mustard"
+  id: 4
+  frame_id: "base_link"
+  size: [0.03, 0.2, 0.0]
+- name: "glass"
+  id: 5
+  frame_id: "base_link"
+  size: [0.00, 0.0, 0.0]
+- name: "sponge"
+  id: 6
+  frame_id: "base_link"
+  size: [0.00, 0.0, 0.0]
+# Surfaces#########################
+- name: "table"
+  id: 7
+  frame_id: "base_link"
+  size: [0.0, 0.0, 0.0]
+- name: "dish area"
+  id: 8
+  frame_id: "base_link"
+  size: [0.0, 0.0, 0.0]
+- name: "middle shelf"
+  id: 9
+  frame_id: "base_link"
+  size: [0.0, 0.0, 0.0]
+- name: "bottom shelf"
+  id: 10
+  frame_id: "base_link"
+  size: [0.0, 0.0, 0.0]
+# - name: "collisions"
+#   id: 11
+#   frame_id: "base_link"
+#   size: [0.0, 0.0, 0.0]
+# - name: ""
+#   id: 7
+#   frame_id: "base_link"
+#   size: [0.03, 0.2, 0.0]
+
+
+  # - name: "Spam"
+  # id: 1
+  # frame_id: "world"
+  # size: [0.0, 0.0, 0.0]
+
+
+  # - name: "table on the left"
+#   id: 0
+#   frame_id: "odom"
+#   size: [0.05, 0.1, 0.02]
+# - name: "table on the right"
+#   id: 1
+#   frame_id: "odom"
+#   size: [0.0, 0.0, 0.0]
+# - name: "pringles" # cylinder
+#   id: 2
+#   frame_id: "odom"
+#   size: [0.03, 0.2, 0.0]
+# - name: "mustard"
+#   id: 3
+#   frame_id: "odom"
+#   size: [0.03, 0.2, 0.0]
+# - name: "cheezeit"
+#   id: 4
+#   frame_id: "odom"
+#   size: [0.05, 0.1, 0.02]
+# - name: "Bottle"
+#   id: 5
+#   frame_id: "world"
+#   size: [0.05, 0.1, 0.02]
+# - name: "Glass"
+#   id: 6
+#   frame_id: "world"
+#   size: [0.05, 0.1, 0.02]
+## Can use meshes, but for now, we are using primitive shapes
+## Would need to fix place to handle not having the height of the primitive
+# - name: "bottle"
+#   id: 2 # Provides which object identifier vision_msgs uses
+#   frame_id: "world"
+#   size: [0.06, 0.06, 0.06]
+#- name: "glass"
+#  id: 3
+#  frame_id: "world"
+#  size: [0.06, 0.06, 0.06]
+# - name: "sponge"
+#   id: 0
+#   frame_id: "world"
+#   size: [0.05, 0.1, 0.02]
+# - name: "table1"
+#   id: 1
+#   frame_id: "world"
+#   size: [0.0, 0.0, 0.0]
+# - name: "bottle" # cylinder
+#   id: 2
+#   frame_id: "world"
+#   size: [0.03, 0.2, 0.0]
+# - name: "glass"
+#   id: 3
+#   frame_id: "world"
+#   size: [0.03, 0.2, 0.0]

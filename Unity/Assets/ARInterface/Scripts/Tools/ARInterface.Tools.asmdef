@@ -1,0 +1,16 @@
+{
+    "name": "ARInterface.Debugging",
+    "rootNamespace": "",
+    "references": [
+        "GUID:3f7c5cd6e86458a498f21f521731f934"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

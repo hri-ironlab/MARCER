@@ -1,0 +1,7 @@
+int32 IDLE = 0
+int32 GENERATE_RULE = 1
+int32 WAIT_FOR_APPROVAL = 2
+int32 WAIT_FOR_FEEDBACK = 3
+int32 ADD_RULE = 4
+int32 DONE = 5
+int32 state

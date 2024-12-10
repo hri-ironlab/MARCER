@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="language_model_node" pkg="language_model" type="language_model_node.py" output="screen" />
+</launch>

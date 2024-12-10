@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="speech_to_text" pkg="user_input" type="speech_to_text.py" output="screen" />
+</launch>

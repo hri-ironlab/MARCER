@@ -1,0 +1,14 @@
+# Example: "table1", "sponge"
+string node_name
+
+# These include "is_on" or "supports"
+string relationship_type
+
+# "subframe_names"
+string attribute_name
+---
+# List of objects and object "is_on" or "supports"
+string[] related_nodes
+
+# Used to list subframes for placing, TBD: Expand to more attributes
+string[] attributes

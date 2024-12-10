@@ -1,0 +1,24 @@
+{
+    "name": "ARInterface.HUD",
+    "rootNamespace": "",
+    "references": [
+        "GUID:93e0b3c8c3079ce41b5c0ebfcc6dba88",
+        "GUID:56255bd5d851a6243b63cb370cfc40b1",
+        "GUID:9a9367d437335a947a847011f5575869",
+        "GUID:3f7c5cd6e86458a498f21f521731f934",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:5db6cbfd5d0e86a46862a70f4b4067f2",
+        "GUID:54aaec3891d0f884bb06f650ddf90f4a",
+        "GUID:ba58c43074cf72549aa2ac5937dae44b",
+        "GUID:b2a88d9fa440af84f8721de6f4aefcf4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

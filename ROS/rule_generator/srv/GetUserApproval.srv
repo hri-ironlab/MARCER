@@ -1,0 +1,4 @@
+string plan_description
+string generated_function
+---
+rule_generator/UserApprovalResponse response

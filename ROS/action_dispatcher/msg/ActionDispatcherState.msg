@@ -1,0 +1,6 @@
+int32 IDLE = 0
+int32 PLANNING = 1
+int32 SEND_PLAN = 2
+int32 MONITOR_EXECUTION = 3
+int32 RECOVERY = 4
+int32 state

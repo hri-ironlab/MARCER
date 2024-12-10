@@ -1,0 +1,8 @@
+#goal for the manipulation action
+manipulation/ManipulationPlanRequest[] actions
+---
+#result 
+moveit_msgs/MoveItErrorCodes error_code
+---
+#feedback
+manipulation/ManipulationPlanRequest current_action

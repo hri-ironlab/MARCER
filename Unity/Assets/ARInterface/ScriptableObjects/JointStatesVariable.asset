@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 680b9c215f4c5b0498c7bac952b79c9c, type: 3}
+  m_Name: /joint_states
+  m_EditorClassIdentifier: 
+  DeveloperDescription: 'Joint states that come from the typical joint states
+
+    topic
+    in ROS'
+  _topicName: 
+  _jointStates:
+    name:
+    - l_wheel_joint
+    - r_wheel_joint
+    - torso_lift_joint
+    - bellows_joint
+    - head_pan_joint
+    - head_tilt_joint
+    - shoulder_pan_joint
+    - shoulder_lift_joint
+    - upperarm_roll_joint
+    - elbow_flex_joint
+    - forearm_roll_joint
+    - wrist_flex_joint
+    - wrist_roll_joint
+    position:
+    - -6.175324440002441
+    - 0.2125811129808426
+    - 0.0032806396484375
+    - 0
+    - 0.003954648971557617
+    - 0.6127495237365723
+    - 1.1264047247729492
+    - -0.4947945554382324
+    - -2.968058388342285
+    - 1.3063134113739014
+    - 1.266894743612671
+    - 1.2769566393707275
+    - -3.142306702999878
+    velocity:
+    - 0.00000011920928955078125
+    - 0.00000011920928955078125
+    - 0.000006258487701416016
+    - 0.000003129243850708008
+    - 0.00015437602996826172
+    - 0.00037026405334472656
+    - -0.00011968612670898438
+    - -0.00012767314910888672
+    - 0.00005435943603515625
+    - 0.00009548664093017578
+    - -0.000522613525390625
+    - 0.0006537437438964844
+    - -0.00009262561798095703
+    effort:
+    - -0.0003647804260253906
+    - 0.00018393993377685547
+    - -82.1875
+    - 0
+    - -0
+    - -0
+    - -0.0207366943359375
+    - -19.703125
+    - -3.134765625
+    - -6.16015625
+    - 0.37109375
+    - -4.875
+    - -0.09442138671875

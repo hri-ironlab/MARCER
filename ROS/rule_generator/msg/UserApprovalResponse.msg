@@ -1,0 +1,4 @@
+int32 APPROVED=0
+int32 FEEDBACK=1
+int32 DELETE=2
+int32 response

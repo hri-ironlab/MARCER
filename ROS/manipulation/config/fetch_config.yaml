@@ -1,0 +1,41 @@
+# Total planning attempts
+max_solutions: 6
+
+# Planning group and link names
+arm_group_name: "arm_with_torso"
+eef_name: "gripper"
+hand_group_name: "gripper"
+hand_frame: "gripper_link"
+
+# Poses
+hand_open_pose: "open"
+hand_close_pose: "close"
+arm_ready_pose: "ready"
+arm_tuck_pose: "tuck"
+
+# Scene frames
+world_frame: "base_link"
+base_frame: "base_link"
+
+# Different Grasp orientations
+horizontal_grasp_frame_transform_name: "horizontal"
+horizontal_grasp_frame_transform: [0.02, 0, 0.0, 0.0, 0.0, 0.0]
+vertical_grasp_frame_transform_name: "vertical"
+vertical_grasp_frame_transform: [0.0, 0, 0.0,  0, -1.5707, 0.0]
+diagonal_grasp_frame_transform_name: "diagonal"
+diagonal_grasp_frame_transform: [0.02, 0, 0.0, 0, -.7854, 0.0]
+long_horizontal_grasp_frame_transform_name: "long_horizontal"
+long_horizontal_grasp_frame_transform: [0.07, 0, 0.0, 0.0, 0.0, 0.0]
+long_vertical_grasp_frame_transform_name: "long_vertical"
+long_vertical_grasp_frame_transform: [0.095, 0, 0.0, 0.0, -1.5707, 0.0]
+
+# Place offset from surface
+place_surface_offset: .005
+
+# Valid distance range when approaching an object for picking
+approach_object_min_dist: 0.05
+approach_object_max_dist: 0.1
+
+# Valid height range when lifting an object after pick
+lift_object_min_dist: 0.01
+lift_object_max_dist: 0.08

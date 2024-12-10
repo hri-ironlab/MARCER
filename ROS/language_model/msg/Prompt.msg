@@ -1,0 +1,5 @@
+string primary_role
+string primary_role_content
+
+string secondary_role
+language_model/ContentItems secondary_role_content

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- Add world origin -->
+    <node pkg="tf2_ros" type="static_transform_publisher" name="world_broadcaster" args="0 0 0 0 0 0 1 odom base_link" />
+
+    <!-- SIMULATOR -->
+    <include file="$(find simulator)/launch/fake_joints_simulator.launch"/>
+    
+    <node name="simulator" pkg="simulator" type="model_states_publisher.py" output="screen">
+        <param name="model_states_file_path" value="$(find simulator)/config/model_states.yaml" />
+    </node>
+
+    <!-- MANIPULATION -->
+    <include file="$(find manipulation)/launch/manipulation.launch">
+        <arg name="fake_execution" value="true"/>
+    </include>
+    <param name="move_group/capabilities" value="move_group/ExecuteTaskSolutionCapability" /> 
+
+    <!-- PERCEPTION -->
+    <include file="$(find perception)/launch/gazebo_perception.launch">
+        <arg name="detectable_objects_file_path" default="$(find perception)/config/detectable_objects.yaml"/>
+        <arg name="model_states_topic" default="/gazebo/model_states"/>
+    </include>
+
+  <!-- WORLD MONITOR -->
+    <arg name="object_definitions_file_path" default="$(find world_monitor)/config/object_definitions.yaml"/>
+    <node name="world_monitor_node" pkg="world_monitor" type="world_monitor_node" output="screen">
+        <param name="object_definitions_file_path" value="$(arg object_definitions_file_path)" />
+    </node>
+
+
+    <!-- SCENE GRAPH -->
+    <node name="scene_graph" pkg="scene_graph" type="scene_graph_node.py" output="screen"/>
+
+    <!-- RVIZ -->
+    <include file="$(find visualizer)/launch/visualizer.launch"/>
+
+    <!-- action_dispatcher -->
+    <node name="action_dispatcher_node" pkg="action_dispatcher" type="action_dispatcher_node.py" output="screen"/>
+     <node name="rule_generator_node" pkg="rule_generator" type="rule_generator_node.py" output="screen" />
+    <node name="language_model_node" pkg="language_model" type="language_model_node.py" output="screen" />
+    <!-- READY POSE -->
+    <node name="ready_pose" pkg="manipulation" type="ready_pose.py" output="screen"/>
+</launch>

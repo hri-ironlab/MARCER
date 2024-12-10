@@ -1,0 +1,7 @@
+<launch>
+    <!-- Launch RViz --> 
+    <arg name="rviz_config" default="$(find visualizer)/config/rviz_config.rviz" /> 
+    <node type="rviz" name="rviz" pkg="rviz" args="-d $(arg rviz_config)" output="screen"> 
+      <rosparam command="load" file="$(find fetch_moveit_config)/config/kinematics.yaml"/> 
+    </node>
+</launch>

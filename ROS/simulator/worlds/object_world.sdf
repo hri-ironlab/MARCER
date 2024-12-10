@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <world name="default">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://table</uri>
+      <name>table1</name>
+      <pose>1.0 0.0 -.2.0 0.0 0.0 0.0</pose>
+    </include>
+    <include>
+      <uri>model://table</uri>
+      <name>table2</name>
+      <pose>.2275 1.0 -.2.0 0.0 0.0 0.0</pose>
+    </include>
+    <include>
+      <uri>model://shelf</uri>
+      <name>shelf</name>
+      <pose>.119 -1.117 0.0 0.0 0.0 3.14</pose>
+    </include>
+    <include>
+      <uri>model://white_bowl</uri>
+      <name>white bowl</name>
+      <pose>.452 .76 .575 0.0 0.0 0.0</pose>
+    </include>
+    <include>
+      <uri>model://red_bowl</uri>
+      <name>red bowl</name>
+      <pose>.248 .792 .575 0.0 0.0 -.032</pose>
+    </include>
+    <include>
+      <uri>model://mug</uri>
+      <name>mug</name>
+      <pose>.2622 .885 .5755 0.0 0.0 0.0</pose>
+    </include>
+    <include>
+      <uri>model://lemon</uri>
+      <name>lemon</name>
+      <pose>0.736762 -0.192356 0.609747 2.136370 -0.898956 -2.255821</pose>
+    </include>
+    <include>
+      <uri>model://mustard_bottle</uri>
+      <name>mustard bottle</name>
+      <pose>0.792111 0.188910 0.578150 0.000460 -0.000076 -2.539617</pose>
+    </include>
+    <include>
+      <uri>model://sponge</uri>
+      <name>sponge</name>
+      <pose>0.807512 -0.063301 0.639984 -3.139537 -0.018562 3.133259</pose>
+    </include>
+    <include>
+      <uri>model://tomato_soup_can</uri>
+      <name>tomato soup can</name>
+      <pose>0.600162 -0.298526 0.574740 0.001158 -0.001495 -2.339613</pose>
+  </include>
+    <include>
+      <uri>model://cracker_box</uri>
+      <name>cracker box</name>
+      <pose>0.718344 0.383926 0.578295 -0.000625 -0.002117 1.881530</pose>
+  </include>
+    <include>
+      <uri>model://pudding_box</uri>
+      <name>pudding box</name>
+      <pose>0.702384 0.070225 0.602895 1.557135 0.496234 -0.216484</pose>
+    </include>
+    <include>
+      <uri>model://jello_box</uri>
+      <name>jello box</name>
+      <pose>0.626218 -0.072676 0.587463 -1.647592 1.344580 -0.161623</pose>
+    </include>
+  </world>
+</sdf>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- Run MTC pick and place -->
+    <!-- By default, we are not in debug mode -->
+    <arg name="debug" default="false" />
+    <arg name="fake_execution" default="false"/>
+
+    <!-- Run the main MoveIt executable -->
+    <arg name="pipeline" default="$(optenv PLANNING_PIPELINE ompl)" />
+    <include file="$(find fetch_moveit_config)/launch/move_group.launch">
+        <arg name="allow_trajectory_execution" value="true"/>
+        <arg name="fake_execution" value="$(arg fake_execution)"/>
+        <arg name="info" value="true"/>
+        <arg name="debug" value="$(arg debug)"/>
+        <arg name="pipeline" value="$(arg pipeline)" />
+    </include>
+
+    <param name="move_group/capabilities" value="move_group/ExecuteTaskSolutionCapability" />
+
+    <!-- Run MTC pick and place -->
+    <node name="manipulation_node" pkg="manipulation" type="manipulation_node" output="screen">
+        <rosparam command="load" file="$(find manipulation)/config/fetch_config.yaml" />
+    </node>
+</launch>

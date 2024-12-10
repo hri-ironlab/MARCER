@@ -1,0 +1,153 @@
+- object_id: "table"
+  key: "surface"
+  header_frame_id: "base_link"
+  primitive_types: [[1]]
+  primitive_dimensions: [[.75, 1.205, .04]]
+  primitive_poses: [[0.0, 0.0, 0, 0, 0, 0, 1]]
+  subframe_names:
+    [
+      "center",
+      "slight right",
+      "right",
+      "far right",
+      "slight left",
+      "left",
+      "far left",
+    ]
+  subframe_poses:
+    [
+      [-.2, 0, 0.02, 0, 0, -0.131, .991],
+      [-.2, .15, 0.02, 0, 0, -0.131, .991],
+      [-.2, .30, 0.02, 0, 0, 0.131, .991],
+      [-.2, .45, 0.02, 0, 0, 0.259, .966],
+      [-.2, -.15, 0.02, 0, 0, 0.131, .991],
+      [-.2, -.30, 0.02, 0, 0, -0.131, .991],
+      [-.2, -.45, 0.02, 0, 0, -0.259, .966],
+    ]
+  mesh_poses: []
+- object_id: "dish area"
+  key: "surface"
+  header_frame_id: "base_link"
+  primitive_types: [[1]]
+  primitive_dimensions: [[.53, .71, .04]]
+  primitive_poses: [[0.0, 0.0, 0.0, 0, 0, 0, 1]]
+  subframe_names: ["dish center", "dish middle", "dish left"]
+  subframe_poses:
+    [
+      [-.15, -.05, 0.02, 0, 0, 0, 1],
+      [-.15, -.15, 0.02, 0, 0, 0, 1],
+      [-.15, -.25, 0.02, 0, 0, 0, 1],
+    ]
+  mesh_poses: []
+- object_id: "bottom shelf"
+  key: "surface"
+  header_frame_id: "base_link"
+  primitive_types: [[1]]
+  primitive_dimensions: [[.35, .9, .04]]
+  primitive_poses: [[0.0, 0.0, 0, 0, 0, 0, 1]]
+  subframe_names: ["bl1", "bl2", "bl3", "bl4", "bl5", "bl6", "bl7"]
+  subframe_poses: [
+      [-.05, .3, .02, 0, 0, 0.131, .991],
+      [-.05, .20, .025, 0, 0, 0.131, .991],
+      [-.05, .10, .02, 0, 0, 0.131, .991],
+      [-.05, 0, .02, 0, 0, 0.131, .991],
+      [-.05, -.1, .02, 0, 0, 0.131, .991],
+      [-.05, -.2, .02, 0, 0, 0, 1],
+      [-.05, -.3, .02, 0, 0, 0, 1],
+    ] 
+  mesh_poses: []
+- object_id: "middle shelf"
+  key: "surface"
+  header_frame_id: "base_link"
+  primitive_types: [[1], [1], [1], [1], [1]]
+  primitive_dimensions:
+    [
+      [.35, .9, .04],
+      [.35, .05, 1.74],
+      [.35, .05, 1.74],
+      [0.06, .9, .74],
+      [.35, .9, .04],
+    ]
+  primitive_poses:
+    [
+      [0.0, 0.0, 0, 0, 0, 0, 1],
+      [0.0, .45, -.34, 0, 0, 0, 1],
+      [0.0, -.45, -.34, 0, 0, 0, 1],
+      [-.15, 0.0, -.77, 0, 0, 0, 1],
+      [0.0, 0.0, .555, 0, 0, 0, 1],
+    ]
+  subframe_names: ["ml1", "ml2", "ml3", "ml4", "ml5", "ml6", "ml7"]
+  subframe_poses:
+    [
+      [-.05, .3, .02, 0, 0, 0.131, .991],
+      [-.05, .20, .02, 0, 0, 0.131, .991],
+      [-.05, .10, .02, 0, 0, 0.131, .991],
+      [-.05, 0, .02, 0, 0, 0.131, .991],
+      [-.05, -.1, .02, 0, 0, 0.131, .991],
+      [-.05, -.2, .02, 0, 0, 0, 1],
+      [-.05, -.3, .02, 0, 0, 0, 1],
+    ]
+  mesh_poses: []
+- object_id: "bottle"
+  key: "object"
+  header_frame_id: "base_link"
+  primitive_types: [[3]]
+  primitive_dimensions: [[0.2, 0.041, 0.0]]
+  primitive_poses: [[0.0, 0.0, 0.0, 0, 0, 0, 1]]
+  subframe_names: []
+  subframe_poses: []
+  mesh_poses: []
+- object_id: "cheezit"
+  key: "object"
+  header_frame_id: "base_link"
+  primitive_types: [[1]]
+  primitive_dimensions: [[0.16, 0.065, 0.23]]
+  primitive_poses: [[0.0, 0.0, 0.0, 0, 0, 0, 1]]
+  subframe_names: []
+  subframe_poses: []
+  mesh_poses: []
+- object_id: "mustard"
+  key: "object"
+  header_frame_id: "base_link"
+  primitive_types: [[1]]
+  primitive_dimensions: [[.09, .075, 0.155]]
+  primitive_poses: [[0.0, 0.0, 0.0, 0, 0, 0, 1]]
+  subframe_names: []
+  subframe_poses: []
+  mesh_poses: []
+- object_id: "pringles"
+  key: "object"
+  header_frame_id: "base_link"
+  primitive_types: [[3]]
+  primitive_dimensions: [[0.235, 0.0425, 0.0]]
+  primitive_poses: [[0.0, 0.0, 0.0, 0, 0, 0, 1]]
+  subframe_names: []
+  subframe_poses: []
+  mesh_poses: []
+- object_id: "cup"
+  key: "object"
+  header_frame_id: "base_link"
+  primitive_types: [[3]]
+  primitive_dimensions: [[0.115, 0.041, 0.0]]
+  primitive_poses: [[0.0, 0.0, 0.0, 0, 0, 0, 1]]
+  subframe_names: []
+  subframe_poses: []
+  mesh_poses: []
+- object_id: "glass"
+  key: "object"
+  header_frame_id: "base_link"
+  primitive_types: [[3]]
+  primitive_dimensions: [[0.17, 0.041, 0.0]]
+  primitive_poses: [[0.0, 0.0, 0.0, 0, 0, 0, 1]]
+  subframe_names: []
+  subframe_poses: []
+  mesh_poses: []
+- object_id: "sponge"
+  key: "object"
+  header_frame_id: "base_link"
+  primitive_types: [[3]]
+  primitive_dimensions: [[0.045, 0.045]]
+  primitive_poses: [[0.0, 0.0, 0.0, 0, 0, 0, 1]]
+  subframe_names: []
+  subframe_poses: []
+  mesh_poses: []

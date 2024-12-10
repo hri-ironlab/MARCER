@@ -1,0 +1,7 @@
+<launch>
+  <arg name="object_definitions_file_path" default="$(find world_monitor)/config/object_definitions.yaml"/>
+
+  <node name="world_monitor_node" pkg="world_monitor" type="world_monitor_node" output="screen">
+    <param name="object_definitions_file_path" value="$(arg object_definitions_file_path)" />
+  </node>
+</launch>

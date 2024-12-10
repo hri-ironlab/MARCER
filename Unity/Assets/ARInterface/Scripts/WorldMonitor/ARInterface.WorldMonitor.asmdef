@@ -1,0 +1,21 @@
+{
+    "name": "ARInterface.Monitor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:3f7c5cd6e86458a498f21f521731f934",
+        "GUID:93e0b3c8c3079ce41b5c0ebfcc6dba88",
+        "GUID:ba58c43074cf72549aa2ac5937dae44b",
+        "GUID:625bfc588fb96c74696858f2c467e978",
+        "GUID:5db6cbfd5d0e86a46862a70f4b4067f2",
+        "GUID:56255bd5d851a6243b63cb370cfc40b1"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
